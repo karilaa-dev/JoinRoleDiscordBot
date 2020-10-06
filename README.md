@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=KirilCrut&color=brightgreen)
+![GitHub followers](https://img.shields.io/github/followers/KirilCrut?style=for-the-badge)
 
 
 Discord bot that automatically assigns a role to the user when he joins the server.
