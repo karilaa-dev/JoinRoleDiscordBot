@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=KirilCrut&color=green)
+![](https://komarev.com/ghpvc/?username=KirilCrut&color=brightgreen)
 
 
 Discord bot that automatically assigns a role to the user when he joins the server.
