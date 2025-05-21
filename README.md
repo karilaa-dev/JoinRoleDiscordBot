@@ -43,15 +43,15 @@ The image is tagged with the commit SHA and `latest`.
 You can pull and run the latest image directly from GHCR.
 
 1.  **Pull the image:**
-    Replace `<OWNER>` with the GitHub username or organization that owns this repository.
+    Use the following command, replacing `discord-role-bot` if you named the image differently:
     ```bash
-    docker pull ghcr.io/<OWNER>/discord-role-bot:latest
+    docker pull ghcr.io/karilaa-dev/discord-role-bot:latest
     ```
 
 2.  **Run the container:**
-    Replace `<OWNER>`, `"YOUR_BOT_TOKEN"`, and `"YourRoleName"` accordingly.
+    Replace `"YOUR_BOT_TOKEN"`, and `"YourRoleName"` accordingly. The image path assumes the owner is `karilaa-dev` and image name is `discord-role-bot`.
     ```bash
-    docker run -d --env BOT_TOKEN="YOUR_BOT_TOKEN" --env ROLE_NAME="YourRoleName" --name discord-bot ghcr.io/<OWNER>/discord-role-bot:latest
+    docker run -d --env BOT_TOKEN="YOUR_BOT_TOKEN" --env ROLE_NAME="YourRoleName" --name discord-bot ghcr.io/karilaa-dev/discord-role-bot:latest
     ```
 
 ## Contributing
