@@ -20,6 +20,11 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
     """Handles the event when a new member joins a server."""
+    print("="*50)
+    print(f"DEBUG: ON_MEMBER_JOIN EVENT TRIGGERED FOR USER: {member.name} (ID: {member.id})")
+    print(f"DEBUG: MEMBER GUILD: {member.guild.name} (ID: {member.guild.id})")
+    print("="*50)
+    
     print(f"New member joined: {member.name}")
 
     # Retrieve role name from environment variable
